@@ -30,7 +30,7 @@ st.title("Road Condition Classifier")
 st.subheader("Predict road conditions using Deep learning")
 
 # Load the SavedModel
-loaded_model = tf.saved_model.load('C://Users//user//Desktop//Moringa School//Capstone Project//StreamLit//DENSEMODEL')
+loaded_model = tf.saved_model.load(r'C:\Users\user\Desktop\Moringa School\Capstone Project\StreamLit\DENSEMODEL')
 
 # Get the default serving signature
 inference_function = loaded_model.signatures["serving_default"]
