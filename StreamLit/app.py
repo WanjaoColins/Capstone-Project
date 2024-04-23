@@ -30,7 +30,7 @@ st.title("Road Condition Classifier")
 st.subheader("Predict road conditions using Deep learning")
 
 # Load the SavedModel
-loaded_model = tf.saved_model.load(r'C:\Users\user\Desktop\Moringa School\Capstone Project\StreamLit\DENSEMODEL')
+loaded_model = tf.saved_model.load('StreamLit\DENSEMODEL')
 
 # Get the default serving signature
 inference_function = loaded_model.signatures["serving_default"]
@@ -87,3 +87,12 @@ Lisa Maina | Valerie Vinya | Stephen Kariuki | Wilkins Nzioka | Colins Wanjao
 """
 st.markdown(footer, unsafe_allow_html=True)
 
+import os
+
+model_path = r'C:\Users\user\Desktop\Moringa School\Capstone Project\StreamLit\DENSEMODEL'
+print("Checking directory contents at:", model_path)
+try:
+    contents = os.listdir(model_path)
+    print("Contents:", contents)
+except Exception as e:
+    print("Error accessing directory:", str(e))
