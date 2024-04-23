@@ -86,3 +86,4 @@ Lisa Maina | Valerie Vinya | Stephen Kariuki | Wilkins Nzioka | Colins Wanjao
 </div>
 """
 st.markdown(footer, unsafe_allow_html=True)
+
