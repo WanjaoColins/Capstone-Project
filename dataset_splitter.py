@@ -3,10 +3,10 @@ import shutil
 import random
 
 # Define directories
-source_dir = "C://Users//user//Desktop//Moringa School//Capstone Project//Roads Kenya"
-train_dir = "C://Users//user//Desktop//Moringa School//Capstone Project//Roads Kenya//Train"
-val_dir = "C://Users//user//Desktop//Moringa School//Capstone Project//Roads Kenya//Validation"
-test_dir = "C://Users//user//Desktop//Moringa School//Capstone Project//Roads Kenya//Test"
+source_dir = "C://Users//user//Downloads//capstone gitignore//Roads Kenya"
+train_dir = "C://Users//user//Downloads//capstone gitignore//Roads Kenya//train"
+val_dir = "C://Users//user//Downloads//capstone gitignore//Roads Kenya//validation"
+test_dir = "C://Users//user//Downloads//capstone gitignore//Roads Kenya//test"
 
 # Define label directories
 labels = ["good", "fair", "poor", "flooded", "unpaved"]
