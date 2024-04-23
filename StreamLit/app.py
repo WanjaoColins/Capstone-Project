@@ -30,7 +30,7 @@ st.title("Road Condition Classifier")
 st.subheader("Predict road conditions using Deep learning")
 
 # Load the SavedModel
-loaded_model = tf.saved_model.load('../DENSEMODEL')
+loaded_model = tf.saved_model.load('DENSEMODEL')
 
 # Get the default serving signature
 inference_function = loaded_model.signatures["serving_default"]
