@@ -1,4 +1,4 @@
-![image.png](attachment:6d0ae276-382b-4db5-99db-452fd7c9a8f8.png)
+![Header Image](Images/Expressway.jpg)
 
 # Enhancing Road Infrastructure Management through Computer Vision
 
