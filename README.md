@@ -59,12 +59,28 @@ Images of roads in varying conditions are scraped from various regions worldwide
 A few roads from each of the categories are sampled to visually inspect the dataset's content. This step allows us to understand the visual representation of different road conditions and assess the diversity of the dataset.
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="Images/Good.jpeg" alt="Good Condition" style="width: 20%;">
-  <img src="Images/Fair.jpeg" alt="Fair Condition" style="width: 20%;">
-  <img src="Images/Poor.jpeg" alt="Poor Condition" style="width: 20%;">
-  <img src="Images/Flooded.jpeg" alt="Flooded Condition" style="width: 20%;">
-  <img src="Images/Unpaved.jpeg" alt="Unpaved Road" style="width: 20%;">
+  <div style="width: 20%;">
+    <img src="Images/Good.jpeg" alt="Good Condition" style="width: 100%;">
+    <p style="text-align: center;">Good Condition</p>
+  </div>
+  <div style="width: 20%;">
+    <img src="Images/Fair.jpeg" alt="Fair Condition" style="width: 100%;">
+    <p style="text-align: center;">Fair Condition</p>
+  </div>
+  <div style="width: 20%;">
+    <img src="Images/Poor.jpeg" alt="Poor Condition" style="width: 100%;">
+    <p style="text-align: center;">Poor Condition</p>
+  </div>
+  <div style="width: 20%;">
+    <img src="Images/Flooded.jpeg" alt="Flooded Condition" style="width: 100%;">
+    <p style="text-align: center;">Flooded Condition</p>
+  </div>
+  <div style="width: 20%;">
+    <img src="Images/Unpaved.jpeg" alt="Unpaved Road" style="width: 100%;">
+    <p style="text-align: center;">Unpaved Road</p>
+  </div>
 </div>
+
 
 ### Data Preprocessing
 
