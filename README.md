@@ -60,26 +60,27 @@ A few roads from each of the categories are sampled to visually inspect the data
 
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 20%; text-align: center;">
-    <img src="Images/Good.jpeg" alt="Good Condition" style="width: 100%;">
+    <img src="Images/Good.jpeg" alt="Good Condition" style="width: 80%;">
     <p>Good Condition</p>
   </div>
   <div style="width: 20%; text-align: center;">
-    <img src="Images/Fair.jpeg" alt="Fair Condition" style="width: 100%;">
+    <img src="Images/Fair.jpeg" alt="Fair Condition" style="width: 80%;">
     <p>Fair Condition</p>
   </div>
   <div style="width: 20%; text-align: center;">
-    <img src="Images/Poor.jpeg" alt="Poor Condition" style="width: 100%;">
+    <img src="Images/Poor.jpeg" alt="Poor Condition" style="width: 80%;">
     <p>Poor Condition</p>
   </div>
   <div style="width: 20%; text-align: center;">
-    <img src="Images/Flooded.jpeg" alt="Flooded Condition" style="width: 100%;">
+    <img src="Images/Flooded.jpeg" alt="Flooded Condition" style="width: 80%;">
     <p>Flooded Condition</p>
   </div>
   <div style="width: 20%; text-align: center;">
-    <img src="Images/Unpaved.jpeg" alt="Unpaved Road" style="width: 100%;">
+    <img src="Images/Unpaved.jpeg" alt="Unpaved Road" style="width: 80%;">
     <p>Unpaved Road</p>
   </div>
 </div>
+
 
 
 
